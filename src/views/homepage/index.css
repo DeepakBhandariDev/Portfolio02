@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap');
+
+.home{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    
+
+}
+.content{
+    width: 50%;
+    height: 80vh;
+}
+.photo1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo12{
+    border: 5px dotted var(--primary-color-dark);
+    height: 62%;
+    width: 42%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1.5s;
+    transform: rotate(0deg);
+    border-radius: 6px;
+    box-shadow: var(--primary-color-dark) solid 3px;
+
+}
+.photo12:hover, .photo12:focus{
+    transform: rotate(360deg);
+}
+.image1{
+    height: 92%;
+    width: 92%;
+    margin-top: 1%;
+    border-radius: 6px;
+    transition: 1s;
+    transform: scale(1);
+    filter: saturate(30%);
+}
+.image1:hover, .image1:focus {
+    transform: scale(1.3);
+    filter: saturate(100%);
+}
+
+@media screen and (max-width: 800px) {
+    .home{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .photo12{
+        width: 80%;
+    }}
