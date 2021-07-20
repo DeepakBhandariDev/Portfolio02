@@ -1,0 +1,10 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--primary-color-light);
+  color: var(--primary-color-dark);
+  text-align: center;
+}
+/*# sourceMappingURL=index.css.map */

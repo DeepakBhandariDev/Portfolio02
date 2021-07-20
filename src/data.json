@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Deepak Bhandari",
+    "email": "BhandariDeepakDev@gmail.com",
+    "city": "Helsinki",
+    "country": "Finland",
+    "from": "Nepal",
+    "skills": {
+      "frontEnd": [
+        "React",
+        "Typescript",
+        "Redux",
+        "Redux-saga",
+        "Redux-thunk",
+        "Angular JS",
+        "CSS",
+        "SASS",
+        "Search Engine Optimization"
+      ],
+      "backEnd": ["Node", "Express", "REST", "Oauth"],
+      "databases": ["MongoDb", "Postgres", "TypeORM"],
+      "mobile": ["Java", "Android"],
+      "testing": ["Jest"],
+      "DevOps": ["Docker", "Git actions", "Bash Scripting"]
+    },
+    "education": [
+      {
+        "organization": "Metropolia UAS",
+        "graduation": "2019",
+        "title": "Bachelor's Degree in ICT",
+        "address": "Helsinki, Finland"
+      },
+      {
+        "organization": "Apex Academy of Applied Sciences",
+        "graduation": "2012",
+        "title": "Higher Secondary",
+        "address": "Chitwan, Nepal"
+      },
+      {
+        "organization": "Satyam Xaviers English School",
+        "graduation": "2009",
+        "title": "Primary/Secondary",
+        "address": "Chitwan, Nepal"
+      }
+    ],
+    "projects": [
+      {
+        "title": "Full-stack E-commerce clothing store",
+        "desription":
+          "Built as self-asessment as well as to accompany my younger brothers online clothing store idea.",
+        "tools": [
+          "Typescript",
+          "React",
+          "Express",
+          "Postgres",
+          "REST",
+          "Axios",
+          "Redux",
+          "Typeorm",
+          "Jest",
+          "Docker",
+          "Oauth"
+        ],
+        "imageUrl": "",
+        "gitRepo": "",
+        "url": ""
+      },
+      {
+        "title": "Port-folio 1.0",
+        "desription":
+          "Built to learn typescript and angular js. Responsive and service workers used to make it a Progressive Web App (PWA) with a standalone icon.",
+        "tools": ["Typescript", "Angular", "NX console"],
+        "imageUrl": "",
+        "gitRepo": "",
+        "url": "deepakbhandari.dev"
+      },
+      {
+        "title": "Job searching web-app/ MERN stack",
+        "desription":
+          "Built as Bachelors final year project to accompany my Thesis.",
+        "tools": ["React", "Express", "MongoDB", "Axios", "Redux"],
+        "imageUrl": "",
+        "gitRepo": "",
+        "url": ""
+      },
+      {
+        "title": "Port-folio 2.0",
+        "desription": "Improved portfolio.",
+        "tools": ["React", "CSS", "HTML"],
+        "imageUrl": "",
+        "gitRepo": "",
+        "url": ""
+      }
+    ],
+    "languages": [
+      { "name": "Nepali", "prof": "Mother-tongue" },
+      { "name": "English", "prof": "Fluent" },
+      { "name": "Hindi", "prof": "Excellent" },
+      { "name": "Finnish", "prof": "Learning" }
+    ]
+  }
+]
